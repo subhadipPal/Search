@@ -1,0 +1,19 @@
+.label {
+  font-size: 24px;
+  color: white;
+  margin-left: 15px;
+}
+.field {
+  margin: 10px;
+  width: 95%;
+  display: inline-flex;
+}
+.error-msg-cls {
+  color: red;
+  margin-left: 15px;
+}
+
+.input {
+  width: 100%;
+  margin-left: 10px;
+}

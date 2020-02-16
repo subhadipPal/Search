@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: aliceblue;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

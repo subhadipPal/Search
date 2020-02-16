@@ -1,0 +1,26 @@
+.results-grid {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 20px;
+  width: 100%;
+}
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: center;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  margin: 10px;
+}
+.item-name {
+  font-size: 20px;
+  font-style: italic;
+}
+.item-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
