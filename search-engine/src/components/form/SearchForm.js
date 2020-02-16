@@ -39,7 +39,7 @@ class SearchForm extends React.PureComponent {
     let timeoutId = setTimeout(() => {
       this.setState({ isWaitingForTimeout: false });
       performSearch(newValue);
-    }, 2000);
+    }, 200);
     this.setState({ isWaitingForTimeout: true, timeoutId: timeoutId });
   };
   render() {
